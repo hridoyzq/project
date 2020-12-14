@@ -1,0 +1,491 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+
+}
+ul li{
+	list-style: none;
+}
+.header{
+	background-color: #ffffff; 
+}
+
+.header:after{
+	display: block;
+	content: '';
+	clear: both;
+
+}
+.con{
+	width: 90%;
+	margin: auto;
+}
+.header .logo img{
+	margin-top: 10px;
+
+}
+.header .menu ui li{
+	text-align: right;
+}
+.header .menu ul li{
+	display: inline-block;
+	padding: 10px 15px;
+	margin-top: 7px;
+	transition: .7s;
+}
+.header .menu ul li:hover{
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.9);
+	background-color: lightgray;
+}
+.header .menu ul li:hover a{
+	display: inline-block;
+	color: black;
+}
+
+.header .menu ul li a{
+	display: block;
+	color: gray;
+}
+.header .menu button{
+	padding: 8px 20px;
+	color: rgba(0, 0, 0, 0.5);
+	border-radius: 100px;
+	outline: none;
+	border: 1px solid blue;
+}
+.header .menu button a{
+	color: blue;
+}
+
+.header .logo{
+	width: 40%;
+	float: left;
+}
+.header .i img{
+	margin-top: 80px;
+}
+.header .menu{
+	width: 60%;
+	float: left;
+}
+/* ent */
+
+.banar{
+	margin: 20px;
+}
+.banar:after{
+	display: block;
+	content: '';
+	clear: both;
+
+}
+.banar .c{
+	width: 60%;
+	float: left;
+}
+.banar .i{
+	width: 40%;
+	float: left;
+}
+.banar .c h1{
+	margin-top: 20px;
+	font-size: 50px;
+	font-family: sans-serif;
+    
+	color: #2977c9;
+	font-family: sans-serif;
+}
+.banar .c input{
+
+	display: block;
+	margin-top: 10px;
+	width: 50%;
+	padding: 10px 20px;
+}
+.banar .c a{
+	margin-top: 16px;
+	color: gray;
+	display: inline-block;
+}
+.banar .c a:hover{
+	text-decoration: underline
+}
+.a{
+	display: block;
+	border-radius: 100px;
+	outline: none;
+	border: none;
+	color: white;
+	background-color: #1877f2;
+}
+
+/* ent */
+
+.banar2 .all {
+	float: left;
+	width: 50%;
+}
+.banar2:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.banar2 .link{
+	width: 50%;
+	float: left;
+}
+.banar2 .link ul li{
+	display: inline-block;
+
+}
+.banar2 .link ul li a{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px 15px;
+	margin-top: 6px;
+	margin-left: 5px;
+	border-radius: 100px;
+	background-color: rgba(0,0,0,0.15);
+    color: rgba(0,0,0,0.9);
+}
+.banar2 .link ul li a:hover{
+	background-color: gray;
+	color: black;
+
+}
+.banar2 .all h2{
+	margin-left: 40px;
+	font-size: 50px;
+	 font-family: sans-serif;
+	 font-weight: 200;
+
+}
+/* end */
+.all3{
+	float: left;
+	width: 42%;
+
+}
+.but{
+	float: left;
+	width: 58%;
+
+}
+.all3 h2{
+	color: #b24020;
+	font-size: 34px;
+	margin: 44px 90px;
+}
+.but button{
+	padding: 12px;
+	color: gray;
+	margin: 64px 0px;
+   border-radius: 100px;
+   padding: 20px 40px;
+   border: 1px solid #303030;
+}
+.but button:hover{
+	background-color: #c1bdb7;
+	color: black;
+	
+
+}
+.hader3{
+	background-color: #f1ece5;
+	padding: 10px;
+
+}
+.hader3:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+/* end */
+.hader4:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.all4{
+	float: left;
+	width: 60%;
+}
+.logo{
+	float: left;
+	width: 40%;
+}
+.all4 h3{
+	font-size: 40px;
+	color: #336791;
+	margin-left: 100px;
+	margin-bottom: 15px;
+
+}
+.all4 p{
+	font-size: 30px;
+	margin-left: 100px;
+	color: rgba(0, 0, 0, .9);
+}
+.hader4{
+	background-color: #faf9f7;
+}
+.all4{
+	margin-top: 33px;
+}
+
+/* ent */
+
+.hader05:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.time1{
+	float: left;
+	width:55%;
+}
+.time2{
+	float: left;
+	width:  45%;
+}
+.time1 img{
+	margin-left: 100px;
+}
+.time1 h1{
+	margin-left: 100px;
+	font-size: 48px;
+}
+.time1 button{
+	margin: 32px;
+	margin-left: 100px;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #303030;
+	border-radius: 100px;
+	color: #070707;
+}
+.time1 button:hover{
+	background-color: gray;
+
+
+
+}
+.time2 h2{
+	margin-left: 100px;
+	font-size: 48px;
+}
+.time1 h2{
+	margin-left: 100px;
+	font-size: 48px;
+}
+
+.time2 button{
+	margin: 32px;
+	margin-left: 100px;
+	font-size: 20px;
+	padding: 10px 20px;
+	border: 1px solid #303030;
+	border-radius: 6px;
+	color: #070707;
+	}
+
+	/* ent */
+
+
+.hader06:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.vdo{
+	float: left;
+	width:60%;
+	
+}
+.vdo{
+	margin-top: 11px;
+	  
+}
+
+
+.all6 {
+	float: left;
+	width:  40%;
+	
+}
+
+
+
+.all6 h2{
+	margin-left: 100px;
+	padding: 2px 0px;
+	font-size: 30px;
+	margin-bottom:  23px;
+	font-family: sans-serif;
+    color:  #B24020;
+    margin-top: 141px;
+    margin-bottom: 100px;
+	
+}
+
+.all6 h3{
+	margin-left: 100px;
+	color: rgba(0,0,0,0.9);
+		font-size: 23px;
+}
+
+/* end:  */
+
+.lo{
+	margin-top: 411px;
+	margin: 0px 89px;
+}
+
+
+.lo button{
+	padding: 15px 25px;
+	border-radius: 100px;
+	margin-top: 80px;
+	outline: none;
+	border: none;
+	color: white;
+	background-color:#2977c9;
+    font-weight: normal;
+    
+
+}
+
+.lo button:hover{
+	background-color:  #0a66c2;
+    color: #fff;
+
+}
+
+.lo h2{
+	 
+	 font-family: sans-serif;
+	     color: #2977c9;
+	     font-size: 33px;
+}
+
+/* ent */
+
+.foter:after{
+	content: '';
+	clear: both;
+	display: block;
+
+}
+
+.foter{
+	margin-left: 50px;
+}
+.foter ul li a:hover{
+	text-decoration: underline;
+	    color: #2977c9;
+
+}
+
+.foter1{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+
+}
+.foter2{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter2 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter2 ul li a{
+	display: block;
+	color: gray;
+	font-size: 15px;
+
+}
+.foter3{
+	width: 20%;
+	float: left;
+	margin-top:20px;
+}
+.foter3 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter3 ul li a{
+	display: block;
+	color: gray;
+	font-size: 15px;
+
+}
+.foter4{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter4 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter4 ul li a{
+	display: block;
+	color: gray;
+	font-size: 15px;
+
+}
+.foter5{
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+}
+.foter5 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter5 ul li a{
+	display: block;
+	color: gray;
+	font-size: 15px;
+
+}
+
+/* end */
+
+.img1{
+	width: 10%;
+	float: left;
+}
+.foter-lest{
+	width: 90%;
+	float: left;
+}
+.foter-lest ul li{
+	display: inline-block;
+	
+
+
+}
+
+
+.foter-lest ul li a{
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+	color: gray;
+
+}

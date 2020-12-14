@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+	text-decoration: none;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+.contaier{
+	width: 100%;
+	margin: 0 auto;
+	
+}
+/* ent */
+.header{
+	background-color: #fff;
+}
+.header:after{
+	content: '';
+	clear: both;
+	display: block;
+
+}
+.logo{
+	float: left;
+	width: 85%;
+}
+.logo img{
+	float: left;
+	width: 120px;
+}
+.but{
+	float: left;
+	width: 15%;
+}
+.logo p{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 20px;
+	color: black;
+	font-size: 14px;
+}
+
+.but button{
+
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #ea4c89;
+	cursor: pointer;
+	border-radius: 50px;
+	border: none;
+}
+.but button:hover{
+	background-color: #f082ac;
+}
+.but .s:hover{
+	background-color: transparent;
+
+}
+.but i{
+	margin-right: 10px;
+}
+.but .s{
+	display: inline-block;
+	padding: 8px 10px;
+	margin-top: 30px;
+	margin-left: 20px;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 50px;
+	border: none;
+}
+/* end */
+
+
+.con{
+	width: 100%;
+	margin: auto;
+}
+.banar:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.h1{
+	float: left;
+    width: 50%;	
+}
+
+.img{
+
+	float: left;
+	width: 50%;
+		
+}
+.h1 h1{
+	margin-top: 100px;
+	font-size: 48px;
+	margin-left: 150px;
+	color: #333333;
+}
+.h1 p{
+	margin-left: 150px;
+	font-size: 16px;
+	margin: 10px;
+	margin-left: 150px;
+}
+.img img{
+	width: 450px;
+	margin-left: 100px;
+}
+.h1 button{
+	padding: 8px 10px;
+	margin-left: 150px;
+	background-color: #ea4c89;
+	font-weight: bold;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+}
+.h1 button:hover{
+	background-color: #f082ac;
+}
+.img p{
+	margin-left: 70%;
+	color: #ccc;
+}
+.img a{
+	color: #ccc;
+	text-decoration: underline;
+	margin: 30px 0px;
+
+
+}
+
+.hader2:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.hader2{
+	margin-top: 60px;
+}
+
+
+
+.but2{
+	float: left;
+	width: 20%;
+}
+.li{
+	float: left;
+	width:70%;
+}
+.filer{
+	float: left;
+	width: 10%;
+}
+
+.li ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.li ul li a{
+	color: #aaaaaa;
+}
+
+.li ul li a:hover{
+	color: #333;
+}
+
+.but2 button{
+	padding: 10px 15px;
+}
+.filer button{
+	padding: 10px 15px;
+}
+
+/* ent */
+
+
+
+
+.all-img:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+.all-img{
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+.image p i{
+	margin-left: 40px;
+}
+
+.image img{
+	width: 300px;
+
+}
+
+
+.image{
+	width: 20%;
+	float: left;
+	padding: 0px 10px;
+	margin: 10px 20px;
+}
+
+
+
+/* end */
+
+
+.or{
+	margin-top: 55px;
+	margin-left: 430px;
+	
+}
+
+.or button{
+	padding: 7px 55px;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #ea4c89;
+	border: none;
+	outline: none;
+	color: white;
+}
+.or button:hover{
+	background-color: #F082AC
+}
+.or a{
+	padding: 1px 50px;
+	font-size: 20px;
+	color: #f082ac;
+
+
+}
+
+
+/* end */
+
+
+
+
+
+.foter:after{
+	content: '';
+	clear: both;
+	display: block;
+
+}
+
+.foter{
+	margin-top: 49px;
+	margin-left: 50px;
+}
+
+
+.foter1{
+	width: 16.6%;
+	float: left;
+	margin-top: 20px;
+	text-align: justify;
+	color: black;
+	font-weight: normal;
+	font-size:18px ;
+	line-height: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.foter1 i{
+	font-size: 20px;
+	margin: 12px 0px;
+
+}
+
+
+.foter2{
+	width: 16.6%;
+	float: left;
+	margin-top: 20px;
+
+}
+.foter2 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter2 ul li a{
+	display: block;
+	color: #303030;
+	font-size: 15px;
+	padding: 3px 0px;
+
+}
+.foter3{
+	width: 16.6%;
+	float: left;
+	margin-top:20px;
+}
+.foter3 ul li{
+	display: block;
+	margin-top: 10px;
+
+
+}
+.foter3 ul li a{
+	display: block;
+	color: #303030;
+	font-size: 15px;
+	padding: 3px 0px;
+
+}
+.foter4{
+	width: 16.6%;
+	float: left;
+	margin-top: 20px;
+}
+.foter4 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter4 ul li a{
+	display: block;
+	color: #303030;
+	font-size: 15px;
+	padding: 3px 0px;
+
+}
+.foter5{
+	width: 16.6%;
+	float: left;
+	margin-top: 20px;
+}
+.foter5 ul li{
+	display: block;
+	margin-top: 10px;
+
+}
+.foter5 ul li a{
+	display: block;
+	color: #303030;
+	font-size: 15px;
+	padding: 3px 0px;
+
+}
+
+.foter6{
+	width: 16.6%;
+	float: left;
+	margin-top: 20px;
+}
+.foter6 p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+
+
+
